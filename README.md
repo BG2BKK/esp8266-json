@@ -1,8 +1,13 @@
 # why esp8266-json
 
+## Welcome to esp8266-json!
 As the json library included in ESP8266 SDK is very difficult to use for me, 
 so I created this project modified from cjson.
 
+因为ESP8266 SDK中包含的JSON API用起来不是太方便，因此就修改了cJSON API，经过验证可以
+在ESP8266中正常工作。
+
+The original site of cJSON - http://cjson.sourceforge.net/
 
 # the original cJSON information
 
@@ -228,7 +233,3 @@ The test.c code shows how to handle a bunch of typical cases. If you uncomment
 the code, it'll load, parse and print a bunch of test files, also from json.org,
 which are more complex than I'd care to try and stash into a const char array[].
 
-Enjoy cJSON!
------------------------
-
-- Dave Gamble, Aug 2009
