@@ -23,10 +23,6 @@
 #ifndef cJSON__h
 #define cJSON__h
 
-#define cJSON_malloc(s) os_malloc(s)
-#define cJSON_free(s) os_free(s)
-
-
 #ifdef __cplusplus
 extern "C"
 {

@@ -55,10 +55,10 @@ static char* ICACHE_FLASH_ATTR cJSON_strdup(const char* str)
       memcpy(copy,str,len);
       return copy;
 }
-/*
+
 void ICACHE_FLASH_ATTR cJSON_InitHooks(cJSON_Hooks* hooks)
 {
-    if (!hooks) { // Reset hooks //
+    if (!hooks) { /* Reset hooks */
         cJSON_malloc = os_malloc;
         cJSON_free = os_free;
         return;
@@ -67,7 +67,6 @@ void ICACHE_FLASH_ATTR cJSON_InitHooks(cJSON_Hooks* hooks)
 	cJSON_malloc = (hooks->malloc_fn)?hooks->malloc_fn:os_malloc;
 	cJSON_free	 = (hooks->free_fn)?hooks->free_fn:os_free;
 }
-*/
 
 /* Internal constructor. */
 static cJSON * ICACHE_FLASH_ATTR cJSON_New_Item(void)
