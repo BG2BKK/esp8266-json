@@ -1,5 +1,8 @@
 # why esp8266-json
 
+Updated version of esp8266-json (forked from cJSON) for esp8266-nonos-sdk 2.1.0.
+
+
 ## Welcome to esp8266-json!
 As the json library included in ESP8266 SDK is very difficult to use for me, 
 so I created this project modified from cjson.
