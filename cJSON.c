@@ -22,10 +22,8 @@
 
 /* cJSON */
 /* JSON parser in C. */
-#include "esp_systemapi.h"
 #include "ets_sys.h"
 #include "osapi.h"
-#include "uart.h"
 #include "mem.h"
 
 #include "cJSON.h"
